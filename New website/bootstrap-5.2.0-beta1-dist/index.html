@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <title>sarahpfitness</title>
-</head>
-<body>
-    SARAH P FITNESS
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <title>sarahpfitness</title>
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-expand-lg"> 
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="margin: -2px; color: #fff;">SARAHPFITNESS</a>
+            <div class="toggleMenu" onclick="toggleMenu();">
+                <div class="toggleMenuIcon"></div>
+            </div>
+            <div class="collapse navbar-collapse show" id="navbarNav">
+                <ul class="navbar-nav ms-lg-auto">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Coaching</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">My Links</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Me</a></li>
+                    <ul class="sci">
+                        <li><a href="https://www.instagram.com/sarahpfitness/"><img src="images/instagram.png"></a></li>
+                        <li><a href="https://www.tiktok.com/@sarahpfitness?lang=en"><img src="images/tik-tok.png"></a></li>
+                    </ul>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <section>
+            <ul class="buttons">
+                <li><button type="button-coaching" class="btn btn-default">APPLY FOR 1:1 COACHING</button></li>
+                <li><button type="button-programs" class="btn btn-default">SHOP PROGRAMS</button></li>
+            </ul>
+        </section>
+        <div class="bottomBar">
+            <ul class="bottomNav">
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <a href="index.html" class="logo">SarahPFitness</a>
+                <ul class="social">
+                    <li><a href="https://www.instagram.com/sarahpfitness/"><img src="images/instagram.png"></a></li>
+                    <li><a href="https://www.tiktok.com/@sarahpfitness?lang=en"><img src="images/tik-tok.png"></a></li>
+                </ul>
+            </ul>
+        </div>
+        
+        
+    </body>
+    <script src="js/main.js"></script>
+    
 </html>
