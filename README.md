@@ -19,6 +19,11 @@ Welcome to **Fitness**, a dynamic website showcasing a cutting-edge platform for
 - **Secure Contact Portal:**
   Prioritizing customer security, our contact portal allows users to send emails securely, protecting the client's personal email address.
 
+## Technologies
+* HTML/CSS
+* Bootstrap
+* JavaScript
+
 ## Getting Started
 
 Explore the website at [www.sarahpfitness.com](http://www.sarahpfitness.com/) to see the features and functionalities. Whether you're a developer or just curious, feel free to review the code, provide feedback, or reach out with any inquiries!
